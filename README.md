@@ -16,5 +16,12 @@ PointConv is a method that can efficiently perform convolution operations on non
 
 ---
 
+## How To Use
 
+### Installation
+
+This code is based on [PointNet](https://github.com/charlesq34/pointnet), [PointNet++](https://github.com/charlesq34/pointnet2) and [PointConv](https://github.com/DylanWusee/pointconv). Please install [Tensorflow](https://www.tensorflow.org/install) and follow the instructions in [PointNet++](https://github.com/charlesq34/pointnet2) to compile ```pointconv/tf_ops```
+This code has been tested with:
+- Python 2.7, Tensorflow 1.11.0, CUDA 9.0
+- Python 3.7, Tensorflow 2.4.1, CUDA 11.0
 
