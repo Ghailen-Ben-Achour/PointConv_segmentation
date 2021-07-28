@@ -25,3 +25,5 @@ This code has been tested with:
 - Python 2.7, Tensorflow 1.11.0, CUDA 9.0
 - Python 3.7, Tensorflow 2.4.1, CUDA 11.0
 
+#### Compile Customized TF Operators
+
