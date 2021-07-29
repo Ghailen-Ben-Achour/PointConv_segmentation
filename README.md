@@ -30,3 +30,6 @@ First, please compile the TF operators under ```pointconv/tf_ops```. (Check ```t
 ```bash
 sh tf_xxx_compile.sh
 ```
+---
+
+## Usage
