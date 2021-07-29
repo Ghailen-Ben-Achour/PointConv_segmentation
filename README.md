@@ -26,4 +26,7 @@ This code has been tested with:
 - Python 3.7, Tensorflow 2.4.1, CUDA 11.0
 
 #### Compile Customized TF Operators
-
+First, please compile the TF operators under ```pointconv/tf_ops```. (Check ```tf_xxx_compile.sh``` under each ops subfolder) with this command.
+```bash
+sh tf_xxx_compile.sh
+```
