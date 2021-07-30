@@ -38,7 +38,9 @@ sh tf_xxx_compile.sh
 
 You can find the Dataset [here](https://github.com/VisualComputingInstitute/vkitti3D-dataset) or download it directly from this [link](https://www.vision.rwth-aachen.de/media/resource_files/vkitti3d_dataset_v1.0.zip).
 
-#### Data Format 
+#### Data Format
+
+All files are provided as numpy ```.npy``` files.
 
 
 
