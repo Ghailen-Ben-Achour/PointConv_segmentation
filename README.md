@@ -42,6 +42,7 @@ You can find the Dataset [here](https://github.com/VisualComputingInstitute/vkit
 
 All files are provided as numpy ```.npy``` files.
 Each file contains a ```N x F``` matrix, where ```N``` is the number of points in a scene and ```F``` is the number of features per point, in this case ```F=7```.
+The features are ```XYZRGBL```, the 3D ```XYZ``` position, the ```RGB``` color and the ground truth semantic label ```L```. 
 
 
 
