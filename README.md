@@ -38,11 +38,27 @@ sh tf_xxx_compile.sh
 
 You can find the Dataset [here](https://github.com/VisualComputingInstitute/vkitti3D-dataset) or download it directly from this [link](https://www.vision.rwth-aachen.de/media/resource_files/vkitti3d_dataset_v1.0.zip).
 
+| Label ID | Semantics  | RGB             | Color       |
+|----------|------------|-----------------|-------------|
+| 0  | Terrain          | [200, 90, 0]    | brown       |
+| 1  | Tree             | [0, 128, 50]    | dark green  |
+| 2  | Vegetation       | [0, 220, 0]     | bright green|
+| 3  | Building         | [255, 0, 0]     | red         |
+| 4  | Road             | [100, 100, 100] | dark gray   |
+| 5  | GuardRail        | [200, 200, 200] | bright gray |
+| 6  | TrafficSign      | [255, 0, 255]   | pink        |
+| 7  | TrafficLight     | [255, 255, 0]   | yellow      |
+| 8  | Pole             | [128, 0, 255]   | violet      |
+| 9  | Misc             | [255, 200, 150] | skin        |
+| 10 | Truck            | [0, 128, 255]   | dark blue   |
+| 11 | Car              | [0, 200, 255]   | bright blue |
+| 12 | Van              | [255, 128, 0]   | orange      |
 #### Data Format
 
 All files are provided as numpy ```.npy``` files.
 Each file contains a ```N x F``` matrix, where ```N``` is the number of points in a scene and ```F``` is the number of features per point, in this case ```F=7```.
-The features are ```XYZRGBL```, the 3D ```XYZ``` position, the ```RGB``` color and the ground truth semantic label ```L```. 
+The features are ```XYZRGBL```, the 3D ```XYZ``` position, the ```RGB``` color and the ground truth semantic label ```L```.
+
 
 
 
