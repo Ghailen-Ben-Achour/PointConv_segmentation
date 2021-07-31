@@ -41,6 +41,7 @@ You can find the Dataset [here](https://github.com/VisualComputingInstitute/vkit
 #### Data Format
 
 All files are provided as numpy ```.npy``` files.
+Each file contains a ```N x F``` matrix, where ```N``` is the number of points in a scene and ```F``` is the number of features per point, in this case ```F=7```.
 
 
 
