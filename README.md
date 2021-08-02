@@ -38,6 +38,12 @@ sh tf_xxx_compile.sh
 
 You can find the Dataset [here](https://github.com/VisualComputingInstitute/vkitti3D-dataset) or download it directly from this [link](https://www.vision.rwth-aachen.de/media/resource_files/vkitti3d_dataset_v1.0.zip).
 
+#### Data Format
+
+All files are provided as numpy ```.npy``` files.
+Each file contains a ```N x F``` matrix, where ```N``` is the number of points in a scene and ```F``` is the number of features per point, in this case ```F=7```.
+The features are ```XYZRGBL```, the 3D ```XYZ``` position, the ```RGB``` color and the ground truth semantic label ```L```.
+
 | Label ID | Semantics  | RGB             | Color       |
 |----------|------------|-----------------|-------------|
 | 0  | Terrain          | [200, 90, 0]    | brown       |
@@ -53,12 +59,5 @@ You can find the Dataset [here](https://github.com/VisualComputingInstitute/vkit
 | 10 | Truck            | [0, 128, 255]   | dark blue   |
 | 11 | Car              | [0, 200, 255]   | bright blue |
 | 12 | Van              | [255, 128, 0]   | orange      |
-#### Data Format
-
-All files are provided as numpy ```.npy``` files.
-Each file contains a ```N x F``` matrix, where ```N``` is the number of points in a scene and ```F``` is the number of features per point, in this case ```F=7```.
-The features are ```XYZRGBL```, the 3D ```XYZ``` position, the ```RGB``` color and the ground truth semantic label ```L```.
-
-
 
 
