@@ -60,4 +60,6 @@ The features are ```XYZRGBL```, the 3D ```XYZ``` position, the ```RGB``` color a
 | 11 | Car              | [0, 200, 255]   | bright blue |
 | 12 | Van              | [255, 128, 0]   | orange      |
 
+#### Train & Evaluate
+
 
