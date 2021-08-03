@@ -62,4 +62,6 @@ The features are ```XYZRGBL```, the 3D ```XYZ``` position, the ```RGB``` color a
 
 #### Train & Evaluate
 
+To train a model for semantic segmentation run ```train_scannet_IoU.py```
+
 
