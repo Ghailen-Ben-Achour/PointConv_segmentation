@@ -66,6 +66,7 @@ To train a model for semantic segmentation run ```train_vkitti_IoU.py```:
 ```bash
 CUDA_VISIBLE_DEVICES=0 python train_vkitti_IoU.py --model pointconv_weight_density_n16 --log_dir test --batch_size 5
 ```
+To evaluate your model after training run ```evaluate_scannet.py```
 
 
 
