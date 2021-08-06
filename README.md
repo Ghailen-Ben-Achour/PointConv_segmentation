@@ -71,6 +71,7 @@ To evaluate your model after training run ```evaluate_vkitti.py```:
 ``bash
 CUDA_VISIBLE_DEVICES=0 python evaluate_vkitti.py --model pointconv_weight_density_n16 --batch_size 1 --model_path test/
 ```
+Modify the model_path to your .ckpt file.
 
 
 
