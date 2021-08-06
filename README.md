@@ -1,4 +1,5 @@
 # Point Convolution
+![Project Image](https://github.com/Ghailen-Ben-Achour/PointConv_segmentation/blob/master/imgs/predictions.jpg?raw=true)
 
 ---
 
