@@ -61,6 +61,26 @@ The features are ```XYZRGBL```, the 3D ```XYZ``` position, the ```RGB``` color a
 | 11 | Car              | [0, 200, 255]   | bright blue |
 | 12 | Van              | [255, 128, 0]   | orange      |
 
+#### Folder structure
+
+When loading the dataset, the data must be organized as follows:
+
+```plain
+└── DATA_DIR
+       ├── 00
+       |   ├── 01.npy
+       |   ├── 02.npy
+       |   └── ...
+       └── 01
+       |   ├── 01.npy
+       |   ├── 02.npy
+       |   └── ...
+       └── 02
+       |   ├── 01.npy
+       |   ├── 02.npy
+       |   └── ...
+```
+
 #### Train & Evaluate
 
 To train a model for semantic segmentation run ```train_vkitti_IoU.py```:
